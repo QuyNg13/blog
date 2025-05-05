@@ -3,28 +3,32 @@ import { logger } from '@tinyhttp/logger';
 import { Liquid } from 'liquidjs';
 import sirv from 'sirv';
 
-const data = {
-  'beemdkroon': {
-    id: 'beemdkroon',
-    name: 'Beemdkroon',
+const blogs = {
+  'eerste-blog': {
+    id: 'eerste-blog',
+    title: 'eerste blog',
     image: {
-      src: 'https://i.pinimg.com/736x/09/0a/9c/090a9c238e1c290bb580a4ebe265134d.jpg',
-      alt: 'Beemdkroon',
-      width: 695,
-      height: 1080,
-    }
+      src: '/images/blog1.jpg',
+      alt: 'Afbeelding bij blog',
+      width: 600,
+      height: 400,
+    },
+    intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
+    content: `<p>Hier komt de volledige inhoud van de blog.</p>`
   },
-  'wilde-peen': {
-    id: 'wilde-peen',
-    name: 'Wilde Peen',
+  'tweede blog': {
+    id: 'tweede blog',
+    title: 'tweede blog',
     image: {
-      src: 'https://mens-en-gezondheid.infonu.nl/artikel-fotos/tom008/4251914036.jpg',
-      alt: 'Wilde Peen',
-      width: 418,
-      height: 600,
-    }
+      src: '/images/blog2.jpg',
+      alt: 'Afbeelding natuur',
+      width: 600,
+      height: 400,
+    },
+    intro: 'Een reflectie over de combinatie tussen natuur en technologie.',
+    content: `<p>Volledige inhoud blog 2...</p>`
   }
-}
+};
 
 const engine = new Liquid({
   extname: '.liquid',
@@ -37,21 +41,24 @@ app
   .use('/', sirv('dist'))
   .listen(3000, () => console.log('Server available on http://localhost:3000'));
 
-app.get('/', async (req, res) => {
-  return res.send(renderTemplate('server/views/index.liquid', { title: 'Home', items: Object.values(data) }));
-});
-
-app.get('/plant/:id/', async (req, res) => {
-  const id = req.params.id;
-  const item = data[id];
-  if (!item) {
-    return res.status(404).send('Not found');
-  }
-  return res.send(renderTemplate('server/views/detail.liquid', {
-    title: `Detail page for ${id}`,
-    item: item
-  }));
-});
+  app.get('/', async (req, res) => {
+    return res.send(renderTemplate('server/views/index.liquid', { 
+      title: 'Home', 
+      blogs: Object.values(blogs) 
+    }));
+  });
+  
+  app.get('/blog/:id/', async (req, res) => {
+    const id = req.params.id;
+    const blog = blogs[id];
+    if (!blog) {
+      return res.status(404).send('Blog niet gevonden');
+    }
+    return res.send(renderTemplate('server/views/detail.liquid', {
+      title: blog.title,
+      blog: blog
+    }));
+  });
 
 const renderTemplate = (template, data) => {
   return engine.renderFileSync(template, data);

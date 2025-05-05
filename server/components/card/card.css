@@ -1,10 +1,16 @@
 .card {
-  width: 100%;
-  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.card__image {
-  width: 100%;
-  height: auto;
-  margin-top: 1rem;
+.card h2 {
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+
+.card p {
+  margin: 0 1rem 1rem;
 }
