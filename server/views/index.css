@@ -4,3 +4,27 @@
   gap: 1.5rem;
   padding: 2rem;
 }
+
+.main-menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-menu ul li {
+  margin: 10px;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.main-menu ul li a:hover {
+  background-color: #45a049;
+}

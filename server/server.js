@@ -14,7 +14,7 @@ const blogs = {
       height: 400,
     },
     intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
-    content: `<p>Hier komt de volledige inhoud van de blog.</p>`
+    content: `Hier komt de volledige inhoud van de blog.`
   },
   'tweede blog': {
     id: 'tweede blog',
@@ -26,7 +26,7 @@ const blogs = {
       height: 400,
     },
     intro: 'Een reflectie over de combinatie tussen natuur en technologie.',
-    content: `<p>Volledige inhoud blog 2...</p>`
+    content: `Volledige inhoud blog 2...`
   }
 };
 
@@ -43,21 +43,42 @@ app
 
   app.get('/', async (req, res) => {
     return res.send(renderTemplate('server/views/index.liquid', { 
-      title: 'Home', 
-      blogs: Object.values(blogs) 
+      title: 'Home'
+    }));
+  });
+
+  app.get('/weekly-nerd', async (req, res) => {
+    return res.send(renderTemplate('server/views/weekly-nerd.liquid', {
+      title: 'Weekly Nerd',
+      blogs: Object.values(blogs)
+    }));
+  });
+
+  app.get('/hackaton', async (req, res) => {
+    return res.send(renderTemplate('server/views/hackaton.liquid', {
+      title: 'Hackaton',
     }));
   });
   
-  app.get('/blog/:id/', async (req, res) => {
-    const id = req.params.id;
-    const blog = blogs[id];
-    if (!blog) {
-      return res.status(404).send('Blog niet gevonden');
-    }
-    return res.send(renderTemplate('server/views/detail.liquid', {
-      title: blog.title,
-      blog: blog
+  app.get('/reflectie-leerdoelen', async (req, res) => {
+    return res.send(renderTemplate('server/views/reflectie-leerdoelen.liquid', {
+      title: 'Reflectie en Leerdoelen',
     }));
+  });
+  
+// Detailpagina voor een specifieke blog
+app.get('/weekly-nerd/blog/:id', async (req, res) => {
+  const id = req.params.id;
+  const blog = blogs[id];
+
+  if (!blog) {
+    return res.status(404).send('Blog not found');
+  }
+
+  return res.send(renderTemplate('server/views/blog-detail.liquid', {
+    title: `Blog Detail: ${blog.title}`,
+    blog: blog
+  }));
   });
 
 const renderTemplate = (template, data) => {
