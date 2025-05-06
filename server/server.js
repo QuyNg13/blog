@@ -8,10 +8,8 @@ const blogs = {
     id: 'eerste-blog',
     title: 'eerste blog',
     image: {
-      src: '/images/blog1.jpg',
+      src: 'images/cassie_evans.webp',
       alt: 'Afbeelding bij blog',
-      width: 600,
-      height: 400,
     },
     intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
     content: `Hier komt de volledige inhoud van de blog.`
@@ -20,14 +18,62 @@ const blogs = {
     id: 'tweede blog',
     title: 'tweede blog',
     image: {
-      src: '/images/blog2.jpg',
+      src: 'images/cassie_evans.webp',
       alt: 'Afbeelding natuur',
-      width: 600,
-      height: 400,
     },
     intro: 'Een reflectie over de combinatie tussen natuur en technologie.',
     content: `Volledige inhoud blog 2...`
-  }
+  },
+  'derde-blog': {
+    id: 'derde-blog',
+    title: 'derde blog',
+    image: {
+      src: 'images/cassie_evans.webp',
+      alt: 'Afbeelding bij blog',
+    },
+    intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
+    content: `Hier komt de volledige inhoud van de blog.`
+  },
+  'vierde': {
+    id: 'vierde-blog',
+    title: 'vierde blog',
+    image: {
+      src: 'images/cassie_evans.webp',
+      alt: 'Afbeelding bij blog',
+    },
+    intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
+    content: `Hier komt de volledige inhoud van de blog.`
+  },
+  'vijfde-blog': {
+    id: 'vijfde-blog',
+    title: 'vijfde blog',
+    image: {
+      src: 'images/cassie_evans.webp',
+      alt: 'Afbeelding bij blog',
+    },
+    intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
+    content: `Hier komt de volledige inhoud van de blog.`
+  },
+  'zesde-blog': {
+    id: 'zesde-blog',
+    title: 'zesde blog',
+    image: {
+      src: 'images/cassie_evans.webp',
+      alt: 'Afbeelding bij blog',
+    },
+    intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
+    content: `Hier komt de volledige inhoud van de blog.`
+  },
+  'zevende-blog': {
+    id: 'zevende-blog',
+    title: 'zevende blog',
+    image: {
+      src: 'images/cassie_evans.webp',
+      alt: 'Afbeelding bij blog',
+    },
+    intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
+    content: `Hier komt de volledige inhoud van de blog.`
+  },
 };
 
 const engine = new Liquid({
