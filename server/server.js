@@ -8,7 +8,7 @@ const blogs = {
     id: 'eerste-blog',
     title: 'eerste blog',
     image: {
-      src: 'images/cassie_evans.webp',
+      src: '/images/cassie_evans.webp',
       alt: 'Afbeelding bij blog',
     },
     intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
@@ -18,7 +18,7 @@ const blogs = {
     id: 'tweede blog',
     title: 'tweede blog',
     image: {
-      src: 'images/cassie_evans.webp',
+      src: '/images/cassie_evans.webp',
       alt: 'Afbeelding natuur',
     },
     intro: 'Een reflectie over de combinatie tussen natuur en technologie.',
@@ -28,7 +28,7 @@ const blogs = {
     id: 'derde-blog',
     title: 'derde blog',
     image: {
-      src: 'images/cassie_evans.webp',
+      src: '/images/cassie_evans.webp',
       alt: 'Afbeelding bij blog',
     },
     intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
@@ -38,7 +38,7 @@ const blogs = {
     id: 'vierde-blog',
     title: 'vierde blog',
     image: {
-      src: 'images/cassie_evans.webp',
+      src: '/images/cassie_evans.webp',
       alt: 'Afbeelding bij blog',
     },
     intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
@@ -48,7 +48,7 @@ const blogs = {
     id: 'vijfde-blog',
     title: 'vijfde blog',
     image: {
-      src: 'images/cassie_evans.webp',
+      src: '/images/cassie_evans.webp',
       alt: 'Afbeelding bij blog',
     },
     intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
@@ -58,7 +58,7 @@ const blogs = {
     id: 'zesde-blog',
     title: 'zesde blog',
     image: {
-      src: 'images/cassie_evans.webp',
+      src: '/images/cassie_evans.webp',
       alt: 'Afbeelding bij blog',
     },
     intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
@@ -68,7 +68,7 @@ const blogs = {
     id: 'zevende-blog',
     title: 'zevende blog',
     image: {
-      src: 'images/cassie_evans.webp',
+      src: '/images/cassie_evans.webp',
       alt: 'Afbeelding bij blog',
     },
     intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
