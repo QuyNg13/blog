@@ -1,7 +1,39 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 header {
-  padding: 1rem;
+  flex-shrink: 0;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
 }
 
 footer {
+  flex-shrink: 0;
   padding: 1rem;
 }
