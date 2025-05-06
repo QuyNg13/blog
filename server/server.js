@@ -4,75 +4,132 @@ import { Liquid } from 'liquidjs';
 import sirv from 'sirv';
 
 const blogs = {
-  'eerste-blog': {
-    id: 'eerste-blog',
-    title: 'eerste blog',
+  'Kilian Valkhof': {
+    id: 'Kilian Valkhof',
+    title: 'Kilian Valkhof',
     image: {
-      src: '/images/cassie_evans.webp',
-      alt: 'Afbeelding bij blog',
+      src: '/images/kilian_valkhof.webp',
+      alt: 'Kilian Valkhof',
     },
-    intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
+    intro: 'Kilian Valkhof over "rule of least power"',
     content: `Hier komt de volledige inhoud van de blog.`
   },
-  'tweede blog': {
-    id: 'tweede blog',
-    title: 'tweede blog',
+  'Peter Paul Koch': {
+    id: 'Peter Paul Koch',
+    title: 'Peter Paul Koch',
     image: {
-      src: '/images/cassie_evans.webp',
-      alt: 'Afbeelding natuur',
+      src: '/images/peter_paul_koch.webp',
+      alt: 'Peter Paul Koch',
     },
-    intro: 'Een reflectie over de combinatie tussen natuur en technologie.',
-    content: `Volledige inhoud blog 2...`
-  },
-  'derde-blog': {
-    id: 'derde-blog',
-    title: 'derde blog',
-    image: {
-      src: '/images/cassie_evans.webp',
-      alt: 'Afbeelding bij blog',
-    },
-    intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
+    intro: 'Peter Paul Koch over web monetization',
     content: `Hier komt de volledige inhoud van de blog.`
   },
-  'vierde': {
-    id: 'vierde-blog',
-    title: 'vierde blog',
+  'Roel Nieskens': {
+    id: 'Roel Nieskens',
+    title: 'Roel Nieskens',
     image: {
-      src: '/images/cassie_evans.webp',
-      alt: 'Afbeelding bij blog',
+      src: '/images/roel_nieskens.webp',
+      alt: 'Roel Nieskens',
     },
-    intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
+    intro: 'Roel Nieskens over typografie',
     content: `Hier komt de volledige inhoud van de blog.`
   },
-  'vijfde-blog': {
-    id: 'vijfde-blog',
-    title: 'vijfde blog',
+  'Cassie Evans': {
+    id: 'Cassie Evans',
+    title: 'Cassie Evans',
     image: {
       src: '/images/cassie_evans.webp',
-      alt: 'Afbeelding bij blog',
+      alt: 'Cassie Evans',
     },
-    intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
+    intro: 'Cassie Evans over GSAP',
     content: `Hier komt de volledige inhoud van de blog.`
   },
-  'zesde-blog': {
-    id: 'zesde-blog',
-    title: 'zesde blog',
+  'Nils binder': {
+    id: 'Nils binder',
+    title: 'Nils binder',
     image: {
-      src: '/images/cassie_evans.webp',
-      alt: 'Afbeelding bij blog',
+      src: '/images/nils_binder.webp',
+      alt: 'Nils binder',
     },
-    intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
+    intro: 'Nils binder over designen voor flexibiliteit',
     content: `Hier komt de volledige inhoud van de blog.`
   },
-  'zevende-blog': {
-    id: 'zevende-blog',
-    title: 'zevende blog',
+  'Jeremy Keith': {
+    id: 'Jeremy Keith',
+    title: 'Jeremy Keith',
     image: {
-      src: '/images/cassie_evans.webp',
-      alt: 'Afbeelding bij blog',
+      src: '/images/jeremy_keith.webp',
+      alt: 'Jeremy Keith',
     },
-    intro: 'In deze blog vertel ik over mijn eerste ervaring met web development.',
+    intro: 'Jeremy Keith over imperative an declarative design',
     content: `Hier komt de volledige inhoud van de blog.`
+  },
+  'Julia Miocene': {
+    id: 'Julia Miocene',
+    title: 'Julia Miocene',
+    image: {
+      src: '/images/julia_miocene.webp',
+      alt: 'Julia Miocene',
+    },
+    intro: 'Julia Miocene over css animaties',
+    content: `Hier komt de volledige inhoud van de blog.`
+  },
+  'Rosa': {
+    id: 'Rosa',
+    title: 'Rosa',
+    intro: 'Rosa over circuit bending',
+    content: `Hier komt de volledige inhoud van de blog.`
+  },
+  'Niels Leenheer': {
+    id: 'Niels Leenheer',
+    title: 'Niels Leenheer',
+    image: {
+      src: '/images/niels_leenheer.webp',
+      alt: 'Niels Leenheer',
+    },
+    intro: 'Niels Leenheer over web technology op kassasysteme',
+    content: `Hier komt de volledige inhoud van de blog.`
+  },
+  'Nienke de Keijzer': {
+    id: 'Nienke de Keijzer',
+    title: 'Nienke de Keijzer',
+    image: {
+      src: '/images/nienke_de_keijzer.webp',
+      alt: 'Nienke de Keijzer',
+    },
+    intro: 'Nienke de Keijzer over accessibility',
+    content: `Hier komt de volledige inhoud van de blog.`
+  },
+  'Erik Kroes': {
+    id: 'Erik Kroes',
+    title: 'Erik Kroes',
+    image: {
+      src: '/images/erik_kroes.webp',
+      alt: 'Erik Kroes',
+    },
+    intro: 'Erik Kroes fixes voor WCAG failures',
+    content: `Hier komt de volledige inhoud van de blog.`
+  },
+};
+
+const leerdoelen = {
+  'Leerdoel 1': {
+    id: 'Leerdoel 1',
+    title: 'Leerdoel 1',
+    intro: 'samen coderen',
+    content: `inhoud`
+  },
+  'Leerdoel 2': {
+    id: 'Leerdoel 2',
+    title: 'Leerdoel 2',
+    intro: 'expirmenteren met nieuwe css',
+    content: `inhoud`
+  },
+  'Leerdoel 3': {
+    id: 'Leerdoel 3',
+    title: 'Leerdoel 3',
+    intro: 'Ideeën itereren en meerdere uitwerkingen maken',
+    content: `inhoud`
   },
 };
 
@@ -109,6 +166,7 @@ app
   app.get('/reflectie-leerdoelen', async (req, res) => {
     return res.send(renderTemplate('server/views/reflectie-leerdoelen.liquid', {
       title: 'Reflectie en Leerdoelen',
+      leerdoelen: Object.values(leerdoelen)
     }));
   });
   

@@ -1,5 +1,5 @@
 .card {
-  background-color: #ffffff;
+  background-color: #d9d9d9;
   border-radius: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -24,6 +24,11 @@
   font-size: 1rem;
   color: #343434;
   line-height: 1.6;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .card:hover {

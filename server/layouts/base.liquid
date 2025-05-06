@@ -11,7 +11,7 @@
   {% block scripts %}{% endblock %}
 </head>
 
-<body>
+<body class="{% if title == 'Home' %}home-page{% endif %}">
   <header>
     <nav>
       <ul>
@@ -25,8 +25,5 @@
   <main>
     {% block content %}{% endblock %}
   </main>
-  <footer>
-    Deze footer staat op elke pagina
-  </footer>
 </body>
 </html>
