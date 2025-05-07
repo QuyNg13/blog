@@ -27,6 +27,10 @@
     flex-wrap: wrap;
     align-items: center;
   }
+
+  .blog-section {
+    margin-top: 1rem;
+  }
   
   @media (max-width: 760px) {
     .blog-container {
@@ -44,7 +48,7 @@
   }
   
   .blog-content {
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 
     h2 {
         margin-top: 2rem;

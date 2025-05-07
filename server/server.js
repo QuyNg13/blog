@@ -309,23 +309,73 @@ const blogs = {
 };
 
 const leerdoelen = {
+  'Reflectie': {
+    id: 'Reflectie',
+    title: 'Reflectie',
+    content: [
+      {
+        titel: 'leermomenten',
+        alinea: [
+          'Als ik terug denk aan mijn tijd tot nu toe tijdens deze minor vind ik dat ik een hoop nieuwe dingen heb geleerd. Ik had deze kennis niet snel op een andere manier kunnen krijgen en ben alleen maar meer enthousiast geworden om nieuwe mooie dingen te maken.',
+          'Een van mijn grootste leermomenten was dat ik moest leren om prioriteiten te stellen over wat ik ging maken. Ik had vaak het probleem dat ik wel een idee had maar niet wist waar ik moest beginnen.',
+          'Ik heb ook geleerd om bewust de rule of least power te grbruiken in mijn producten. Ik heb nu veel meer intresse in HTML en CSS dan voor deze minor. Dit helpt ook bij het balanceren van code talen in mijn project, als ik een idee heb voor iets weet ik meteen waar dit kan en/of moet.'
+        ]
+      },
+      {
+        titel: 'mijn ervaringen',
+        alinea: [
+          'Wat mij gelijk op viel toen ik begon is dat de werkdruk erg hoog was vergeleken met mijn vorige minor. Ik vond dit erg fijn en het hielp ook dat de rest van de klas even gemotiveerd was als ik.',
+          'Het viel mij mee hoeveel ik niet begreep van de uitleg die er was. Ik had verwacht dat ik niet veel van de presentaties zou kunnen volgen maar dat viel gelukkig meestal wel mee. Ik vind het zelf namelijk veel fijner om dingen zelf uit te zoeken omdat het dan beter in mijn hoofd blijft zitten.',
+          'Wat een beetje tegen viel is dat ik voor elke opdracht een mijn hele process moest documenteren. Vaak vergat ik dit te doen omdat ik zo druk was met een probleem oplossen dat ik niet mijn stappen had opgeschreven. uiteindelijk is dit wel goed gekomen doordat ik veel commits heb gemaakt waardoor ik makkelijk kon bekijken wat ik in het verleden had gedaan.'
+        ]
+      },
+      {
+        titel: 'Waar ik trots op ben',
+        alinea: [
+          'Waar ik het mest trots op ben is mijn opdracht voor API. Ik heb hier iets gemaakt waar ik van tevoren echt niet verwacht had dat ik het kon. Het werken met een framework was voor mij erg nieuw.',
+          'Ik heb mezelf weten uit te dagen door voor mijn doen, een lastig idee uit te werken. Het is uiteindelijk ook nog een gelukt!'
+        ]
+      }
+    ]
+  },
   'Leerdoel 1': {
     id: 'Leerdoel 1',
     title: 'Leerdoel 1',
-    intro: 'samen coderen',
-    content: `inhoud`
+    content: [
+      {
+        titel: 'samen coderen',
+        alinea: [
+          'Voor de Meesterproef gaan we in team werken. Hier heb ik nog weinig ervaring mee en in het algemeen vind ik het lastig om mijn eigen gang te gaan als ik me bewust ben dat anderen afhankelijk zijn van mij.',
+          'Ik wil daarom werken aan mijn communicatie binnen in een team maar ook ervoor zorgen dat mijn code aansluit met de code die anderen schrijven zodat we samen één mooi product kunnen maken en niet allemaal kleine onderdelen die niet in elkaar passen.'
+        ]
+      },
+    ]
   },
   'Leerdoel 2': {
     id: 'Leerdoel 2',
     title: 'Leerdoel 2',
-    intro: 'expirmenteren met nieuwe css',
-    content: `inhoud`
+    content: [
+      {
+        titel: 'expirmenteren met nieuwe css',
+        alinea: [
+          'Ik heb tijdens deze minor veel nieuwe functies gezien die in CSS mogelijk zijn. om deze onder de knie te krijgen wil ik tijdens de meesterproef ik ik graag nog meer expirimenteren met wat er allemaal mogelijk is met puur CSS.',
+          'Ik hoop dat ik in de toekomst veel gebruik kan maken van wat ik tijdens de meesterproef bevind.'
+        ]
+      },
+    ]
   },
   'Leerdoel 3': {
     id: 'Leerdoel 3',
     title: 'Leerdoel 3',
-    intro: 'Ideeën itereren en meerdere uitwerkingen maken',
-    content: `inhoud`
+    content: [
+      {
+        titel: 'Ideeën itereren en meerdere uitwerkingen maken',
+        alinea: [
+          'Tijdens de opdrachten van de minor heb ik vaak weinig tijd gehad om een eindproduct te maken, hierdoor heb ik vaak maar één versie gemaakt van een product en niet veel verschillende varianten kunnen maken om hetzelfde probleem op te lossen.',
+          'Bij de meesterproef wil ik graag meerdere ideeën uitwerken en daar de best uit kiezen om tot een zo doordacht mogeljk product te komen.'
+        ]
+      },
+    ]
   },
 };
 

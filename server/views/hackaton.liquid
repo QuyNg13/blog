@@ -2,4 +2,12 @@
 
 {% block content %}
   <h1>{{ title }}</h1>
+  <div class="blog-content">
+    {% for section in hackathon.content %}
+      <h2>{{ section.titel }}</h2>
+      {% for alinea in section.alinea %}
+        <p>{{ alinea }}</p>
+      {% endfor %}
+    {% endfor %}
+  </div>
 {% endblock %}
