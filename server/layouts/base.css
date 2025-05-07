@@ -27,6 +27,16 @@ header {
   }
 }
 
+@media (max-width: 760px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  .blog-image {
+      max-width: 100%;
+    }
+}
+
 .inleiding{
   max-width: 1440px;
 

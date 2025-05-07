@@ -5,6 +5,8 @@
     <div class="blog-container">
       {% if blog.image %}
         <img class="blog-image" src="{{ blog.image.src }}" alt="{{ blog.image.alt }}">
+        {% else %}
+        <img class="blog-image" src="/images/blank.png">
       {% endif %}
 
       {% if blog.inleiding %}
@@ -17,7 +19,9 @@
     <div class="blog-content">
       {% for section in blog.content %}
         <h2>{{ section.titel }}</h2>
-        <p>{{ section.tekst }}</p>
+        {% for alinea in section.alinea %}
+          <p>{{ alinea }}</p>
+        {% endfor %}
       {% endfor %}
     </div>
   </div>

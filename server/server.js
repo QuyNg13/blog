@@ -16,11 +16,13 @@ const blogs = {
     content: [
       {
         titel: 'Rule of Least Power',
-        tekst: 'Hij introduceerde het principe "rule of least power", wat gaat over het kiezen van de minst complexe oplossing.'
+        alinea: [
+          'Hij introduceerde het principe "rule of least power", wat gaat over het kiezen van de minst complexe oplossing voor het probleem dat je hebt. Bijvoorbeeld, als je een probleem kunt oplossen met HTML, CSS of JavaScript, kies dan voor HTML. <br> Hierbij gaf hij een aantal voorbeelden van nieuwe HTML oplossingen dat vooraf gedaan werd met Javascript. Hieronder een aantal voorbeelden: <br> <br> <ul> <li>"input type="color""</li> <li>HTML accordion met summary en details element</li> <li>dialog element</li> </ul>'          
+        ]
       },
       {
-        titel: 'Toepassing',
-        tekst: 'Dit principe helpt om flexibelere, onderhoudbare code te schrijven.'
+        titel: 'Wat ik mee ga nemen',
+        tekst: 'Dit Was mijn eerste indruk van nieuwe web devolpment functies. het was erg interesant om te zien hoeveel ja al kan doen met alleen HTML tags. Alhoewel was het voor mij wel veel informatie en ik begreep nog niet zo goed ik de dingen die hij liet zien toe moest passen.<br> <br> Nu ik hier op terug kijk, wordt ik weer opnieuw enthousiast over de mogelijkheden die er zijn met HTML. Het geeft me een gevoel om meer uit te gaan zoeken wat er allemaal mogelijk is met enkel HTML en CSS. Het is een goede reminder dat je niet altijd de meest complexe oplossing hoeft te kiezen, maar dat er vaak eenvoudigere oplossingen zijn die ook goed werken.'
       }
     ]
   },
@@ -36,11 +38,11 @@ const blogs = {
     content: [
       {
         titel: 'Web monetization',
-        tekst: 'Hij introduceerde het principe "rule of least power", wat gaat over het kiezen van de minst complexe oplossing.'
+        tekst: 'Web monetization is een manier om websites te monetizen door middel van een browserextentie bij de bezoeker. Het idee is dat je een website kunt maken die automatisch betaald wordt door de bezoekers. Dit kan bijvoorbeeld door middel van een abonnement of door het betalen per bezoek. <br> <br>Hij gaf een aantal voorbeelden van hoe dit werkt en hoe je het kunt implementeren. Het idee is dat je een API kunt gebruiken om betalingen te verwerken en dat je dit kunt integreren in je website.'
       },
       {
-        titel: 'Toepassing',
-        tekst: 'Dit principe helpt om flexibelere, onderhoudbare code te schrijven.'
+        titel: 'Wat ik mee ga nemen',
+        tekst: 'Nadat ik het verhaal van Peter had gehoord wist ik niet zo goed wat ik er van vond. Aan de ene kant vind ik het een goed initiatief om mensen mensen te betalen voor het werk dat ze doen. Maar aan de andere kant denk ik niet dat dit de oplossing is voor het probleem dat we hebben met advertenties en privacy. <br> <br> In het geval dat iedereen dit systeem zou gebruiken is het erg goed vor de privacy maar de meeste gebruikers zijn zich er niet van bewust dat dit een probleem is. Ik vraag me af of mensen het een aantrekkelijke oplossing om te betalen voor iets waar ze al "gratis" toegang tot hebben door te betalen met hun gegevens of het zien van advertenties wat voor veel geen groot probleem is.'
       }
     ]
   },

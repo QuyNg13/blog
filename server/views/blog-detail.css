@@ -45,12 +45,17 @@
   
   .blog-content {
     margin-top: 2rem;
-  }
-  
-  .blog-content h2 {
-    margin-top: 1.5rem;
-  }
-  
-  .blog-content p {
-    margin-top: 0.5rem;
+
+    h2 {
+        margin-top: 2rem;
+      }
+
+    p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    ul {
+       list-style: inside; 
+    }
   }
