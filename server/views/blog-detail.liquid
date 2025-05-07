@@ -1,6 +1,24 @@
 {% layout "server/layouts/base.liquid" %}
 
 {% block content %}
-  <h1>{{ blog.title }}</h1>
-  <p>{{ blog.content }}</p>
+  <div class="blog-wrapper">
+    <div class="blog-container">
+      {% if blog.image %}
+        <img class="blog-image" src="{{ blog.image.src }}" alt="{{ blog.image.alt }}">
+      {% endif %}
+
+      {% if blog.inleiding %}
+        <div class="blog-intro">
+          <h1>{{ blog.title }}</h1>
+          <p>{{ blog.inleiding }}</p>
+        </div>
+      {% endif %}
+    </div>
+    <div class="blog-content">
+      {% for section in blog.content %}
+        <h2>{{ section.titel }}</h2>
+        <p>{{ section.tekst }}</p>
+      {% endfor %}
+    </div>
+  </div>
 {% endblock %}
