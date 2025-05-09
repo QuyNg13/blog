@@ -345,8 +345,9 @@ const leerdoelen = {
       {
         titel: 'samen coderen',
         alinea: [
-          'Voor de Meesterproef gaan we in team werken. Hier heb ik nog weinig ervaring mee en in het algemeen vind ik het lastig om mijn eigen gang te gaan als ik me bewust ben dat anderen afhankelijk zijn van mij.',
-          'Ik wil daarom werken aan mijn communicatie binnen in een team maar ook ervoor zorgen dat mijn code aansluit met de code die anderen schrijven zodat we samen één mooi product kunnen maken en niet allemaal kleine onderdelen die niet in elkaar passen.'
+          'Ik wil mijn communicatie binnen een team verbeteren, dit houdt in dat ik me zo wil presenteren tegenover mijn teamgenoten dat mijn ideeën beter over gebracht worden brengen.', 
+          'Ik wil ook beter worden hoe ik effectief kan samenwerken aan gedeelde code. Dit betekent dat ik regelmatig afstem met teamleden over code-structuur en naming conventions etc.', 
+          'Aan het eind van het project wil ik code hebben geschreven dat past bij de afspraken binnen het team en ik mijn Ideeën zo heb overgebracht dat het in overweging is gebracht door de andere teamgenoten.',
         ]
       },
     ]
@@ -358,8 +359,8 @@ const leerdoelen = {
       {
         titel: 'expirmenteren met nieuwe css',
         alinea: [
-          'Ik heb tijdens deze minor veel nieuwe functies gezien die in CSS mogelijk zijn. om deze onder de knie te krijgen wil ik tijdens de meesterproef ik ik graag nog meer expirimenteren met wat er allemaal mogelijk is met puur CSS.',
-          'Ik hoop dat ik in de toekomst veel gebruik kan maken van wat ik tijdens de meesterproef bevind.'
+          'Ik wil tijdens de Meesterproef actief experimenteren met moderne CSS-functionaliteiten die ik tijdens de minor heb gezien zoals anchor-positioning, :has() en container queries. Ik denk dat dit mij ook erg helpt bij al mijn projecten in de toekomst.',
+          'Tijdens de meesterproef wil ik graag documenteren wat wel en niet heeft gewerkt om hopelijk zo mijn kennis in CSS te verbeteren.',
         ]
       },
     ]
@@ -369,10 +370,9 @@ const leerdoelen = {
     title: 'Leerdoel 3',
     content: [
       {
-        titel: 'Ideeën itereren en meerdere uitwerkingen maken',
+        titel: 'Meerdere ideeën uitschetsen',
         alinea: [
-          'Tijdens de opdrachten van de minor heb ik vaak weinig tijd gehad om een eindproduct te maken, hierdoor heb ik vaak maar één versie gemaakt van een product en niet veel verschillende varianten kunnen maken om hetzelfde probleem op te lossen.',
-          'Bij de meesterproef wil ik graag meerdere ideeën uitwerken en daar de best uit kiezen om tot een zo doordacht mogeljk product te komen.'
+          'Ik wil leren om meerdere concepten en visuele uitwerkingen te maken voor het project. Door een aantal verschillende ideeën visueel te schetsen en/of prototypen per uitdaging, wil ik mijn proces onderbouwen en het uiteindelijke ontwerp beter kunnen beargumenteren. Zo kom ik tot een doordachter eindproduct en leer ik beter omgaan met ontwerp-iteraties.',
         ]
       },
     ]
