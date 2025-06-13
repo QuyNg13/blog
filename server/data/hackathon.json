@@ -1,0 +1,21 @@
+{
+  "id": "Hackathon",
+  "title": "Hackathon",
+  "inleiding": "Tijdens de hackathon moest ik samen met een team een website maken dat de 'women in tech' presenteert. Ons idee hiervoor was om een interactieve wereldkaart en klok te maken in een klaslokaal om te kunnen filteren in de afkomst en het tijdperk van de vrouwen. Vervolgens is het mogelijk om door de resultaten heen te scrollen in een carousel en meer informatie te krijgen.",
+  "content": [
+    {
+      "titel": "Mijn inbreng",
+      "alinea": [
+        "Ik was verantwoordelijk voor de klok. Ik heb deze met puur CSS gemaakt en het menu dat erin zit gemaakt met behulp van anchor positioning. In principe is dit een zelfgebouwde select-element. Ik heb ook een grote rol gespeeld in het repareren van code van anderen en het samenvoegen ervan."
+      ]
+    },
+    {
+      "titel": "Nieuwe inzichten",
+      "alinea": [
+        "Ik vond het lastig om onder tijdsdruk te werken. Ik ben gewend om een lange tijd onderzoek te doen naar welke code ik wil gebruiken, maar dit was voor dit project erg lastig.",
+        "Ik was eerst van plan meer te gaan maken dan alleen de klok, maar dit is door de tijdsdruk niet gelukt, waardoor ik niet helemaal tevreden was met mijn inbreng.",
+        "Het was wel een leuke ervaring om weer eens met andere mensen iets te maken. Het is erg leuk om te zien hoe het eindproduct eruitziet als je alles samen hebt gevoegd."
+      ]
+    }
+  ]
+}
