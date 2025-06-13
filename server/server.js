@@ -2,10 +2,8 @@ import { App } from '@tinyhttp/app';
 import { logger } from '@tinyhttp/logger';
 import { Liquid } from 'liquidjs';
 import sirv from 'sirv';
-import weeklynerd from './data/weeklynerd.json' assert { type: 'json' };
-import leerdoelen from './data/leerdoelen.json' assert { type: 'json'};
-import vakken from './data/vakken.json' assert { type: 'json'};
-import hackathon from './data/hackathon.json' assert { type: 'json'};
+import fs from 'fs';
+import path from 'path';
 
 const engine = new Liquid({
   extname: '.liquid',
@@ -18,6 +16,9 @@ app
   .use('/', sirv('dist'))
   .listen(3000, () => console.log('Server available on http://localhost:3000'));
 
+const readJson = (file) =>
+  JSON.parse(fs.readFileSync(path.resolve('server', 'data', file), 'utf-8'));
+
 app.get('/', async (req, res) => {
   return res.send(renderTemplate('server/views/index.liquid', {
     title: 'Home'
@@ -25,6 +26,7 @@ app.get('/', async (req, res) => {
 });
 
 app.get('/weekly-nerd', async (req, res) => {
+  const weeklynerd = readJson('weeklynerd.json');
   return res.send(renderTemplate('server/views/weekly-nerd.liquid', {
     title: 'Weekly Nerd',
     blogs: weeklynerd
@@ -32,22 +34,33 @@ app.get('/weekly-nerd', async (req, res) => {
 });
 
 app.get('/hackaton', async (req, res) => {
+  const hackathon = readJson('hackathon.json');
   return res.send(renderTemplate('server/views/hackaton.liquid', {
     hackathon: hackathon
   }));
 });
 
 app.get('/reflectie-leerdoelen', async (req, res) => {
+  const leerdoelen = readJson('leerdoelen.json');
   return res.send(renderTemplate('server/views/reflectie-leerdoelen.liquid', {
     title: 'Reflectie en Leerdoelen',
     leerdoelen: leerdoelen
   }));
 });
 
+app.get('/vakken', async (req, res) => {
+  const vakken = readJson('vakken.json');
+  return res.send(renderTemplate('server/views/vakken.liquid', {
+    title: 'Vakken',
+    vakken: vakken
+  }));
+});
+
 // Detailpagina voor een specifieke blog
-app.get('/weekly-nerd/blog/:id', async (req, res) => {
+app.get('/weekly-nerd/:id', async (req, res) => {
+  const weeklynerd = readJson('weeklynerd.json');
   const id = req.params.id;
-  const blog = blogs[id];
+  const blog = weeklynerd.find((nerd) => nerd.id === id);
 
   if (!blog) {
     return res.status(404).send('Blog not found');
