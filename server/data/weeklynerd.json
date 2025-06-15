@@ -300,5 +300,140 @@
         ]
       }
     ]
+  },
+  {
+    "id": "Dave-Bitter",
+    "title": "Dave Bitter",
+    "image": {
+      "src": "/images/dave_bitter.webp",
+      "alt": "Dave bitter"
+    },
+    "intro": "Dave Bitter over AI-powered Voice Interfaces",
+    "inleiding": "Dave is een oud student bij CMD en is frontend consultant bij IO digital. Tijdens zijn talk legt hij de groei uit van AI voice interfaces.",
+    "content": [
+      {
+        "titel": "The rise of AI-powered Voice Interfaces",
+        "alinea": [
+          "De presentatie begon met een korte geschiedenis van spraakherkenning. In de jaren 50-60 begon het net, in de jaren 70-80 konden korte zinnetjes worden herkend. In de jaren 90 werd er een grote stap vooruit gezet en rond 2000 kwam Google met toepassingen. In 2010 verschenen spraakassistenten zoals Siri en Alexa, en sindsdien zijn steminterfaces steeds gewoner geworden. Tegen 2020 werd het echt indrukwekkend. Hoewel tekstchat met AI populair is, voelt praten vaak natuurlijker aan.",
+          "Om dat mogelijk tre maken gebruik je hardware zoals microfoons, in combinatie me de `SpeechRecognition` web API. De steminvoer gaat naar de computer, wordt doorgestuurd naar de AI en komt als reactie weer terug. De AI genereert een zin die vervolgens uitgesproken kan worden door middel van de SpeechSynthesis Web API. Zo ontstaat een interactief gesprek tussen gebruiker en AI.",
+          "Hoe connect je dit met AI? Dit vraagstuk gaat ove hoe je een AI verteld hoe hij zich moet gedragen. Om de AI goed te laten reageren, moet je hem eerst uitleggen hoe hij gebruikt wordt. Daarna geef je hem een persoonlijkheid, en eventueel een rol. Die persoonlijkheid en de feedback die de gebruiker krijgt, zorgen voor een menselijker gevoel tijdens het gesprek.",
+          "Voor nog realistischer stemmen kun je Elevenlabs inzetten. Dit maakt de stem levensechter, maar het leverde wel vertraging op: het duurde soms een minuut voordat je een reactie kreeg. Daardoor verslechterde de gespreksbeleving. Uiteindelijk bleek dat snelheid belangrijker was dan een goeie stem."
+        ]
+      },
+      {
+        "titel": "Wat ik mee ga nemen",
+        "alinea": [
+          "Ik vond het erg gaaf om te zien hoeveel er mogelijk is met Ai voice interfaces en hoe makkelijk het eigenlijk is om te maken door middel van bestaande web API's. Al is dit wel iets waar ik me niet zo snel in zou verdiepen, wil ik het wel graag uitbproberen nadat ik deze presentatie heb gehoord.",
+          "Al heb ik wel zo mijn twijfels over het hele concept van op dze manier omgaan met onze apparaten, aangezien we op deze manier steeds meer met AI interactie hebben in plaats van andere mensen of zelf onderzoek doet naar onderwerpen waarbij je je eigen bronnen zoekt. Ik denk dat er wel een grote markt is waar deze interactie met AI thuis hoort."
+        ]
+      }
+    ]
+  },
+    {
+    "id": "Steve-Jonk",
+    "title": "Steve Jonk",
+    "image": {
+      "src": "/images/steve_jonk.webp",
+      "alt": "Steve Jonk"
+    },
+    "intro": "Steve bitter over zijn Twitter follow bot",
+    "inleiding": "Steve Jonk is een front-end developer bij IO en werkt naast zijn werk bij IO ook nog voor zichzelf. Hij heeft een Twitter Bot gebouwd dat op het randje van legaal is.",
+    "content": [
+      {
+        "titel": "Twitter Follow Bot and Follower Scraper",
+        "alinea": [
+          "Hoewel het project enigszins tegen de regels ingaat, werd hij er gewoon voor betaald en deed hij alles openlijk. De Twitter API is in principe beschikbaar voor iedereen, maar volledige toegang kost veel geld. Steve heeft echter een creatieve manier gevonden om deze beperkingen te omzeilen.",
+          "Het systeem bestaat uit twee hoofdtaken: bepalen wie gevolgd moet worden, en het vervolgens daadwerkelijk uitvoeren van die follow-acties. Hiervoor gebruikte hij tools als N8N, Puppeteer, Postgres, Docker en natuurlijk de Twitter API.",
+          "Een groot obstakel was de strijd met Twitter zelf. Het platform is erg streng tegenover bots, zeker als het gaat om volgen en ontvolgen. Daarom probeerde Steve het gedrag van de bot zo menselijk mogelijk te laten lijken door gebruik te maken van randomizers.",
+          "In plaats van puur via de API te werken, gebruikte hij eenscraper om data van de website te halen en op te slaan in een eigen database. Niet alle gebruikersinformatie is direct zichtbaar dus moest er paginering toegepast worden. Zo kon hij steeds ongeveer 50 nieuwe volgers tegelijk binnenhalen."
+        ]
+      },
+      {
+        "titel": "Wat ik mee ga nemen",
+        "alinea": [
+          "Wat ik erg interresant vond aan deze talk los van dat het vanaf een ethisch aspect niet helemaal verantwoord is, is dat Steve erg creatieve manieren heeft gevonden om zijn problemen te omzeilen. Dit niviea van probleem oplossend nadenken zou ik ook willen kunnen.",
+          "Het was erg leuk om hem zo enthousiast te horen praten over de oplossing en omwegen die hij heeft kunnen vinden om over de obstakels van Twitter heen te komen. Zo gemotiveerd zijn om nieuwe dingen te ontdekken en daarbij zo out of the box kunnen denken zou ik graag willen toepassen op mijn eigen werk."
+        ]
+      }
+    ]
+  },
+    {
+    "id": "Clarke-Verdel",
+    "title": "Clarke Verdel",
+    "image": {
+      "src": "/images/clarke_verdelk.webp",
+      "alt": "Clarke Verdel"
+    },
+    "intro": "Clarke Verdel over automatisch testen van code",
+    "inleiding": "Clarke is een 'T-shapen' frontend engineer bij IO, hij verteld ovet het automatisch testen van code alsof het een echte gebuiker is.",
+    "content": [
+      {
+        "titel": "Software opleveren dat altijd werkt",
+        "alinea": [
+          "Je kunt als developer denken dat je code goed werkt maar het echte doel is dat je code stabiel blijft in alle situaties. Daarom is goed testen cruciaal. De presentatie besprak de zogenaamde Testing Trophy, een model dat laat zien hoe je verschillende soorten tests het beste inzet.",
+          "Het begint allemaal bij tools zoals TypeScript, ESLint en andere linters. Die helpen al vroeg fouten te vinden in je code, nog voordat je de applicatie runt.",
+          "Daarna kijk je naar unit en componenttests. werken losse stukjes code of componenten zoals ze moeten? Dat gaat niet alleen om logica, maar ook om visuele elementen.",
+          "Vervolgens komt integratietesten, waarbij je controleert of alle verschillende onderdelen goed met elkaar samenwerken. Bijvoorbeeld of een knop op een pagina de juiste data uit de database haalt of dat hij niet een ander component in de weg zit. Dit niveau is vaak het meest complex en wordt ook het vaakst getest.",
+          "Tot slot zijn er end-to-end (E2E) tests. Die bootsen echte gebruikersscenario's na in de browser. Nadeel: als je iets in de code verandert, kunnen deze tests snel breken, en moet je alles opnieuw uitvoeren. Dat maakt het tijdrovend.",
+          "Testen zorgt voor vertrouwen in je software. Je weet namelijk dat dingen goed reageren, snel zijn, toegankelijk zijn, en er netjes uitzien. Het liefst test je dit soort dingen in een echte browser, maar dat gebeurt niet altijd omdat het vaak veel tijd kost. Maar nu is er Component Browser Testing. Hiermee kun je componenten testen in een echte browseromgeving, met tools die draaien op Vite. Dat zorgt voor snellere feedback, visuele toegankelijkheidschecks, betere debugging en uiteindelijk meer vertrouwen in je code."
+        ]
+      },
+      {
+        "titel": "Wat ik mee ga nemen",
+        "alinea": [
+          "Automatisch testen is iets waar ik nog maar weinig in aanraking ben gekomen naast het gebruiken van een linter. Het is ook niet echt iets dat ik nu direct kan toepassen aangezien dit vooral aansluit op grote projecten waar je met een groot team aan werkt.",
+          "Het is wel goed om hiervan gehoord te hebben om mezelf voor te kunnen bereiden op wat er aan zit te komen als ik aan een groot product werk samen met andere developers. Ik denk dat dit wel iets is waar ik in de toekomst sowieso mee in aanraking ga komen.",
+          "Ik me hier meer in verdiepen aangezien ik denk dat er veel kennis is op het gebied van testen waarmee ik nu nog niet mee in aanrakingben gekomen."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q42",
+    "title": "Q42",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "intro": "",
+    "inleiding": "",
+    "content": [
+      {
+        "titel": "",
+        "alinea": [
+          "",
+        ]
+      },
+      {
+        "titel": "Wat ik mee ga nemen",
+        "alinea": [
+          "",
+        ]
+      }
+    ]
+  },
+    {
+    "id": "",
+    "title": "",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "intro": "",
+    "inleiding": "",
+    "content": [
+      {
+        "titel": "",
+        "alinea": [
+          "",
+        ]
+      },
+      {
+        "titel": "Wat ik mee ga nemen",
+        "alinea": [
+          "",
+        ]
+      }
+    ]
   }
 ]
