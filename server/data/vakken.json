@@ -25,5 +25,59 @@
         ]
       }
     ]
+  },
+    {
+    "id": "Kilian-Valkhof",
+    "title": "Kilian Valkhof",
+    "image": {
+      "src": "/images/kilian_valkhof.webp",
+      "alt": "Kilian Valkhof"
+    },
+    "intro": "Kilian Valkhof over 'rule of least power'",
+    "inleiding": "In deze blog bespreken ik de lezing van Kilian Valkhof. Kilian Valkhof is een Nederlandse front-end developer, spreker en ondernemer. <br><br>Hij is de oprichter van Polypane, een browser voor ontwikkelaars. Met een passie voor het verbeteren van het web deelt Valkhof regelmatig zijn kennis via blogs en presentaties.",
+    "content": [
+      {
+        "titel": "Rule of Least Power",
+        "alinea": [
+          "Hij introduceerde het principe 'rule of least power', wat gaat over het kiezen van de minst complexe oplossing voor het probleem dat je hebt. Bijvoorbeeld, als je een probleem kunt oplossen met HTML, CSS of JavaScript, kies dan voor HTML.",
+          "Hierbij gaf hij een aantal voorbeelden van nieuwe HTML oplossingen dat vooraf gedaan werd met Javascript. Hieronder een aantal voorbeelden:",
+          "<ul><li>input type='color'</li><li>HTML accordion met summary en details element</li><li>dialog element</li></ul>"
+        ]
+      },
+      {
+        "titel": "Wat ik mee ga nemen",
+        "alinea": [
+          "Dit was mijn eerste indruk van nieuwe web development functies. het was erg interessant om te zien hoeveel je al kan doen met alleen HTML tags. Alhoewel was het voor mij wel veel informatie en ik begreep nog niet zo goed hoe ik de dingen die hij liet zien moest toepassen.",
+          "Nu ik hier op terugkijk, word ik weer opnieuw enthousiast over de mogelijkheden die er zijn met HTML. Het geeft me een gevoel om meer uit te gaan zoeken wat er allemaal mogelijk is met enkel HTML en CSS. Het is een goede reminder dat je niet altijd de meest complexe oplossing hoeft te kiezen, maar dat er vaak eenvoudigere oplossingen zijn die ook goed werken."
+        ]
+      }
+    ]
+  },
+    {
+    "id": "Kilian-Valkhof",
+    "title": "Kilian Valkhof",
+    "image": {
+      "src": "/images/kilian_valkhof.webp",
+      "alt": "Kilian Valkhof"
+    },
+    "intro": "Kilian Valkhof over 'rule of least power'",
+    "inleiding": "In deze blog bespreken ik de lezing van Kilian Valkhof. Kilian Valkhof is een Nederlandse front-end developer, spreker en ondernemer. <br><br>Hij is de oprichter van Polypane, een browser voor ontwikkelaars. Met een passie voor het verbeteren van het web deelt Valkhof regelmatig zijn kennis via blogs en presentaties.",
+    "content": [
+      {
+        "titel": "Rule of Least Power",
+        "alinea": [
+          "Hij introduceerde het principe 'rule of least power', wat gaat over het kiezen van de minst complexe oplossing voor het probleem dat je hebt. Bijvoorbeeld, als je een probleem kunt oplossen met HTML, CSS of JavaScript, kies dan voor HTML.",
+          "Hierbij gaf hij een aantal voorbeelden van nieuwe HTML oplossingen dat vooraf gedaan werd met Javascript. Hieronder een aantal voorbeelden:",
+          "<ul><li>input type='color'</li><li>HTML accordion met summary en details element</li><li>dialog element</li></ul>"
+        ]
+      },
+      {
+        "titel": "Wat ik mee ga nemen",
+        "alinea": [
+          "Dit was mijn eerste indruk van nieuwe web development functies. het was erg interessant om te zien hoeveel je al kan doen met alleen HTML tags. Alhoewel was het voor mij wel veel informatie en ik begreep nog niet zo goed hoe ik de dingen die hij liet zien moest toepassen.",
+          "Nu ik hier op terugkijk, word ik weer opnieuw enthousiast over de mogelijkheden die er zijn met HTML. Het geeft me een gevoel om meer uit te gaan zoeken wat er allemaal mogelijk is met enkel HTML en CSS. Het is een goede reminder dat je niet altijd de meest complexe oplossing hoeft te kiezen, maar dat er vaak eenvoudigere oplossingen zijn die ook goed werken."
+        ]
+      }
+    ]
   }
 ]
