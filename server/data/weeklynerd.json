@@ -361,7 +361,7 @@
     "id": "Clarke-Verdel",
     "title": "Clarke Verdel",
     "image": {
-      "src": "/images/clarke_verdelk.webp",
+      "src": "/images/clarke_verdel.webp",
       "alt": "Clarke Verdel"
     },
     "intro": "Clarke Verdel over automatisch testen van code",
@@ -392,46 +392,65 @@
     "id": "Q42",
     "title": "Q42",
     "image": {
-      "src": "",
-      "alt": ""
+      "src": "/images/q42.webp",
+      "alt": "Q42 logo"
     },
-    "intro": "",
-    "inleiding": "",
+    "intro": "Q42 over project Oculi Mundi en SenseMath",
+    "inleiding": "Q42 is een studio gevestigd in Den Haag en Amsterdam. Tijdens deze weekly nerd vertellen ze ove twee projecten die ze hebben gedaan die laten zien wat er mogelijk is met web tech en hoe ze omgaan met een specifieke doelgroep.",
     "content": [
       {
-        "titel": "",
+        "titel": "Oculi Mundi collection",
         "alinea": [
-          "",
+          "Een van de projecten van Q42 was in opdracht van een vrouw uit het buitenland. Haar familie verzamelde al jarenlang kaarten en kunstwerken, en ze wilde een website laten maken om die collectie op een bijzondere en creatieve manier te laten zien. 'I do not want your mama's website' Daarvoor ontwikkelde Q42 een 3D-website, waarbij de navigatie-items als planeten in een ruimtelijk universum zweven, en elk kunstwerk in die 3D-wereld wordt gepresenteerd.",
+          "In plaats van  gewoon van boven naar beneden scrollen, beweeg je op deze site de diepte in. Het voelt alsof je naar voren wordt getrokken. Dit effect hebben ze alleen met HTML en CSS gemaakt. Er is ook een onderzoeksmodus waar het vooral om data en niet om de visuals omdat deze website ook door onderzoekers word gebruikt om naar oude kaarten te kunnen kijken en tot in de kleine details in te inzoomen.",
+          "Met al deze functies hebben ze het ook voor elkaar gekregen om alles in eerste instatie vanuit toegankelijkheid te benaderen. Alles is voor iedereen bereikbaar en het is visueel ook nog eens heel aantrekkelijk."
+        ]
+      },
+      {
+        "titel": "SenseMath grafieken",
+        "alinea": [
+          "SenseMath is een project dat speciaal is gemaakt voor blinde mensen. Door middel van dit product is het mogelijk voor blinde mensen om wiskundige grafieken te lezen door middel van geluid, Door goed te letten op hoe het geluid klinkt kan je in je hooft een de lijn tekenen die door de grafiek heen gaat. Er zitten hele kleine detail in het geluid om verschillende dingen aan te duiden, bijvoorbeeld een geluid wannere de lijn door een as heet gaat in de grafiek en waar snijpunten zitten.",
+          "Wat opviel tijdens dit project was hoeveel het ging over het ontwerpen voor specifike mensen en niet perse over de development van het product. Er werd verteld over welek kleine details er zijn toegevoegd na met echte gebruikers getest te hebben, hun feedback te verwerken en mee te nemen welke geluiden het meest duidelijk zouden zijn voor de gebruiker."
         ]
       },
       {
         "titel": "Wat ik mee ga nemen",
         "alinea": [
-          "",
+          "Wat mij opviel bij Q42 is dat ze altijd vanaf het perspectief van toegankelijkheid beginnen bij het ontwikkelen van een product. Ik wil dit graag meenemen in mijn eiogen projecten zodat toegankelijkheid niet een ding is dat ik achteraf moet toevoegen. Ik denk dat je tot een veel beter en compleet product komt als je vanaf begin af aan ontwerpt voor toegankelijkheid, de producten van Q42 zijn hier het bewijs van.",
+          "Q42 liet veel zien waarvan ik eerder nog nooit ove had nagedacht, het was erg inspirerend om te zien hoe ze met probelemn om gaan en hoe iedereen op zoek is naar de beste oplossing."
         ]
       }
     ]
   },
     {
-    "id": "",
-    "title": "",
+    "id": "Marieke-de-Hoop",
+    "title": "Marieke de Hoop",
     "image": {
-      "src": "",
-      "alt": ""
+      "src": "/images/marieke_de_hoop.webp",
+      "alt": "Marieke de Hoop"
     },
-    "intro": "",
-    "inleiding": "",
+    "intro": "Marieke de Hoop over digitale toegenkelijkheid",
+    "inleiding": "Merieke werkt bij digitaal toegankelijk, hier voeren zij  toegankelijkheids autits uit voor websites. Zij geven vervolgens ook advies voor de bedrijven waarmee ze werken.",
     "content": [
       {
-        "titel": "",
+        "titel": "Digitale toegankelijkheid",
         "alinea": [
-          "",
+          "Marieke geeft eerst een korte uitleg over wat digitale toegankelijkheid inhoudt. We hebben het hier over mensen met een beperking, zowel tijdelijk als permanente beprkingen. We hebben het ook over dat elke beperking een persoonlijke ervaring is en dat je mensen niet over één kam kan scheren.",
+          "Bij een audit van digitale toegankelijk word een product van een bedrijf getoetst op teogeankelijkheid, het is een systematische toets dat door de verschillende aspecten gaat van toegankelijkheid. een aantal hiervan zijn styling, contrast tussen kleuren, typografie, etc."
+        ]
+      },
+            {
+        "titel": "EAA (European Accessibility Act)",
+        "alinea": [
+          "Bij deze prsentatie kregen we meer uitleg over de 'European Accessibility Act'. We hebben al eerder van de term gehoord tijdens de minor maar nog geen uitleg van wat het inhoudt.",
+          "Alle bedrijven die aan consumenten in de EU leveren moeten hier aan voldoen, natuurlijk zijn er een aantal uizonderingen maar in principe moet elk grote bedrijf aan deze regels voldoen. De gevolgen voor niet voldoen aan deze regels zijn erg groot voor het bedrijf als ze na een melding niks doen."
         ]
       },
       {
         "titel": "Wat ik mee ga nemen",
         "alinea": [
-          "",
+          "Het was fijn om iets meer uitleg te krijgen over een begrip dat ik vaker heb gehoord om meer invulling te krijgen van wat het betekend. Alhoewel denk ik dat ik er pas echt mee in aanraking ga komen in het werkveld waar ik er daadwerkelijk echt rekening mee moet houden.",
+          "Het begrip is nogsteeds vaag maar ik begrijp nu wel de omvang van hoeveel invloed het heeft op het web. Over het algemeen denk ik dat het een goed ding is dat de Eu dit in beweging heeft gebracht alhoewel vind ik het jammer dat bedrijven op deze manier pas rekening houden met toegankelijkheid in plaats van het in eerste instantie al te doen."
         ]
       }
     ]

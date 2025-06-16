@@ -6,7 +6,8 @@
 @import '../server/layouts/base.css';
 @import '../server/views/index.css';
 @import '../server/views/weekly-nerd.css';
-@import '../server/views/blog-detail.css';
+@import '../server/views/weekly-nerd-detail.css';
+@import '../server/views/meesterproef.css';
 
 /* component styling */
 @import '../server/components/card/card.css';

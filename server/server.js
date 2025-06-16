@@ -33,9 +33,9 @@ app.get('/weekly-nerd', async (req, res) => {
   }));
 });
 
-app.get('/hackaton', async (req, res) => {
+app.get('/hackathon', async (req, res) => {
   const hackathon = readJson('hackathon.json');
-  return res.send(renderTemplate('server/views/hackaton.liquid', {
+  return res.send(renderTemplate('server/views/hackathon.liquid', {
     hackathon: hackathon
   }));
 });
@@ -56,6 +56,10 @@ app.get('/vakken', async (req, res) => {
   }));
 });
 
+app.get('/meesterproef', async (req, res) => {
+  return res.send(renderTemplate('server/views/meesterproef.liquid'));
+});
+
 // Detailpagina voor een specifieke blog
 app.get('/weekly-nerd/:id', async (req, res) => {
   const weeklynerd = readJson('weeklynerd.json');
@@ -66,7 +70,7 @@ app.get('/weekly-nerd/:id', async (req, res) => {
     return res.status(404).send('Blog not found');
   }
 
-  return res.send(renderTemplate('server/views/blog-detail.liquid', {
+  return res.send(renderTemplate('server/views/weekly-nerd-detail.liquid', {
     title: `Blog Detail: ${blog.title}`,
     blog: blog
   }));

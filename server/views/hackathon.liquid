@@ -3,10 +3,10 @@
 {% block content %}
   <div class="blog-wrapper">
     <div class="blog-content">
-      <h1>{{ title }}</h1>
-      <p><strong>{{ inleiding }}</strong></p>
+      <h1>{{ hackathon.title }}</h1>
+      <p><strong>{{ hackathon.inleiding }}</strong></p>
 
-      {% for section in content %}
+      {% for section in hackathon.content %}
         <h2>{{ section.titel }}</h2>
         {% for alinea in section.alinea %}
           <p>{{ alinea }}</p>
