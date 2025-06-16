@@ -1,64 +1,102 @@
 .blog-wrapper {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 2rem 1rem 1rem 1rem;
-    color: #f5f5f5;
+  max-width: 1080px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 2rem 1rem 1rem 1rem;
+  color: #f5f5f5;
+}
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.blog-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+
+.blog-intro {
+  flex: 1;
+  display: flex;
+  font-size: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.blog-section {
+  margin-top: 1rem;
+}
+
+.blog-content {
+  img {
+    width: 70%;
   }
-  
-  .blog-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  
-  .blog-image {
+
+  details {
+    margin-bottom: 20px;
     width: 100%;
-    max-width: 300px;
-    height: auto;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 0.5rem;
-    flex-shrink: 0;
+    font-family: sans-serif;
   }
-  
+
+  details p {
+    padding: 20px;
+  }
+
+  summary {
+    padding: 20px;
+    background-color: #2c2c2c;
+    border: 1px solid #2c2c2c;
+    outline: none;
+  }
+
+  summary:hover,
+  summary:focus {
+    border: 1px solid #5e5e5e;
+  }
+
+  details[open] {
+    background: #1a1a1a;
+  }
+}
+
+@media (max-width: 760px) {
+  .blog-container {
+    flex-direction: column;
+  }
+
+  .blog-image,
   .blog-intro {
-    flex: 1;
-    display: flex;
-    font-size: 1.5rem;
-    flex-wrap: wrap;
-    align-items: center;
+    flex: unset;
   }
 
-  .blog-section {
-    margin-top: 1rem;
+  .blog-image {
+    max-width: 100%;
   }
-  
-  @media (max-width: 760px) {
-    .blog-container {
-      flex-direction: column;
-    }
-  
-    .blog-image,
-    .blog-intro {
-      flex: unset;
-    }
+}
 
-    .blog-image {
-        max-width: 100%;
-      }
+.blog-content {
+  h2 {
+    margin-top: 2rem;
   }
-  
-  .blog-content {
-    h2 {
-        margin-top: 2rem;
-      }
 
-    p {
-      margin-top: 0.5rem;
-      font-size: 1.2rem;
-    }
-
-    ul {
-       list-style: inside; 
-    }
+  p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
   }
+
+    img {
+    width: 100%;
+  }
+
+
+  ul {
+    list-style: inside;
+  }
+}

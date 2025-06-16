@@ -1,10 +1,56 @@
 {% layout "server/layouts/base.liquid" %}
 
 {% block content %}
-  <div class="blog-wrapper">
-    <div class="blog-content">
-      <h1>{{ meesterproef.title }}</h1>
-      <p><strong>{{ meesterproef.inleiding }}</strong></p>
-    </div>
+<div class="blog-wrapper">
+  <div class="blog-content">
+    <h1>{{ meesterproef.title }}</h1>
+    <p><strong>{{ meesterproef.inleiding }}</strong></p>
+    {{ content | raw }}
+    <details>
+      <summary>Reflectie</summary>
+      <h2>Reflectie</h2>
+      <p>Tijdens dit project heb ik veel geleerd, vooral over samenwerken in een team en het werken aan een groter
+        project dan normaal gesproken.
+        Een van mijn grootste leermomenten was hoe belangrijk duidelijke communicatie is binnen een team. Ik merkte al
+        snel dat de communicatie en samenwerking niet goed verliep als iemand er een keer niet was op school.
+        In het begin van de minor vond ik het lastig om mijn ideeën goed over te brengen naar mijn team, maar door
+        bewust eerder de stap te nemen om ideeën voor te stellen en mee te denken met de andere teamgenoten hebben we
+        minder tijd verspilt. Ook merkte ik dat mijn input serieus werd genomen door de andere teramgenoten. Dat gaf me
+        vertrouwen en hielp om de
+        samenwerking te verbeteren, ik was me bewust van wat iedereen aan het doen was gedurende het project.
+        Ook het afstemmen van de code-structuur en naming conventions zorgde ervoor dat we goed
+        konden werken. Mijn code sloot goed aan bij die van de anderen, het verraste me hoe weinig moeite we hadden met
+        merge conflicts.</p>
+      <p>
+        Voor mijn CSS leerdoel heb ik weinig de tijd gehad doordat ik genoodzaakt was om aan de backend te werken
+        van het project. Maar na het bijwonen van CSS-day ben ik erg gemotiveerd geraakt om iets met de gepresenteerde
+        code te doen. Uiteindelijk heb ik er dus voor gekozen om de scroller van Adam Argle toe te voegen aan het
+        project voor de content. Ik was me hierbij bewust van hoe de code werkte en heb er zelf een beetje mee gespeeld
+        om het passend te maken bij ons product. In deze scroller heb ik een aantal voor mij nieuwe code gebruikt. Ik
+        heb bijvoorbeeld geoefend met anchor positioning, gebruik gemaakt van scroll button elementen en customizable
+        scroll bars. Ookal heb ik dit pas laat gemaakt ben ik wel erg blij met hoe het er uit is gekomen.
+      </p>
+      <p>
+        Wat me verraste, was hoe goed ik uiteindelijk de data uit de database wist te halen en op de correcte manier te
+        kunnen alten zien door middel van liquid.
+        De logica achter het ophalen van relaties, subrelaties en het tonen van verschillende
+        objecttypes (persoon, organisatie, event) was soms best ingewikkeld, maar ik ben er trots op dat ik dit heb
+        kunnen
+        oplossen. Vooral het ophalen van verschillende soorten objecten en daarbinnen de juiste data weten te vinden
+        vond ik erg uitdagend en ben daarom ook erg blij dat het uiteindelijk goed is gelukt.
+      </p>
+      <p>
+        Bij het leerdoel over ideeën schetsen heb ik alleen aan het begin van het project kunnen werken. In het begin
+        heb ik samen met het team een
+        mindmap en flows uitgewerkt, en daarnaast heb ik individueel verschillende schetsen gemaakt voor user flows en
+        interfaces. Het hielp wel om veel verschillende mogelijke ideeën op tafel te hebben en ze soms te kunne
+        combineren.
+        Het schetsen hielp ook met mijn ideeën communiceren naar het team toe en met hun hulp te itereren.
+      </p>
+      <p>
+        Uiteindelijk kijk ik trots terug op mijn groei. Ik heb bewust gewerkt aan mijn leerdoelen, heb mezelf
+        uitgedaagd en weet nu beter wat mijn rol is in een team en in het ontwerpproces.
+      </p>
+    </details>
   </div>
-{% endblock %}
+  {% endblock %}

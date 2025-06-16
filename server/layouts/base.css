@@ -29,6 +29,7 @@ header {
 
 main {
   height: fit-content;
+  width: calc(100% - 2rem);
 }
 
 @media (max-width: 760px) {

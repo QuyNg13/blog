@@ -1,6 +1,7 @@
 import { App } from '@tinyhttp/app';
 import { logger } from '@tinyhttp/logger';
 import { Liquid } from 'liquidjs';
+import { marked } from 'marked';
 import sirv from 'sirv';
 import fs from 'fs';
 import path from 'path';
@@ -58,9 +59,13 @@ app.get('/vakken', async (req, res) => {
 
 app.get('/meesterproef', async (req, res) => {
   const meesterproef = readJson('meesterproef.json');
+  const markdownPath = path.resolve('server', 'data', 'Productbiografie.md');
+  const markdownContent = fs.readFileSync(markdownPath, 'utf-8');
+  const meesterproefHTML = marked(markdownContent);
   return res.send(renderTemplate('server/views/meesterproef.liquid', {
     title: 'Meesterproef',
-    meesterproef: meesterproef
+    meesterproef: meesterproef,
+    content: meesterproefHTML
   }));
 });
 

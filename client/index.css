@@ -7,7 +7,6 @@
 @import '../server/views/index.css';
 @import '../server/views/weekly-nerd.css';
 @import '../server/views/weekly-nerd-detail.css';
-@import '../server/views/meesterproef.css';
 
 /* component styling */
 @import '../server/components/card/card.css';
@@ -18,5 +17,5 @@ body {
   display: flex;
   flex-direction: column;
   height: 100dvh;
-    background-color: #1a1a1a;
+  background-color: #1a1a1a;
 }
