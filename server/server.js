@@ -57,7 +57,11 @@ app.get('/vakken', async (req, res) => {
 });
 
 app.get('/meesterproef', async (req, res) => {
-  return res.send(renderTemplate('server/views/meesterproef.liquid'));
+  const meesterproef = readJson('meesterproef.json');
+  return res.send(renderTemplate('server/views/meesterproef.liquid', {
+    title: 'Meesterproef',
+    meesterproef: meesterproef
+  }));
 });
 
 // Detailpagina voor een specifieke blog

@@ -17,6 +17,6 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: fit-content;
+  height: 100dvh;
+    background-color: #1a1a1a;
 }
