@@ -11,7 +11,10 @@
       {
         "titel": "Pure CSS polaroids",
         "alinea": [
-            ""
+            "Voor deze opdracht was ik eerst van plan om een gallerij te maken van polaroids met dat alle content op, maar ik had overschat hoe lang ik hier mee bezig zou zijn. Uiteindelijk had ik mijn originele idee al in een dag helemaal af. Ik moest dus iets bedenken om toe te kunne voegen dat wel bij het thema past.",
+            "Wat mij altijd altijd al super tof leek om te kunnen was tekenen met CSS. Ik heb er daarom voor gekozen om een polaroid camera te maken met enkel HTML en CSS. Hierbij heb ik weinig onderzoek gedaan maar heb we een schets gemaakt van welk elementen ik allemaal nodig had en hoe ik ze moest positioneren, ik heb ook figma gebruikt om het formaat van elk onderdeel zo dicht mogelijk tot de echte camera te kunnen maken. Na heel lang CSS schrijven is het uiteinndelijk gelukt om een camera te maken die precies op het echte ding lijkt.",
+            "Nadat ik moet camera eindelijk af had kwam Sanne met het idee om hem werkend te maken. IK had helemaal geen idee hoe dit zou moeten maar met behulp van een web API waarmee ik bij de camera van de gebuiker kon was dit ook al snel gedaan.",
+            "Uiteindelijk is het door een beetje spelen met CSS en spontaan ideeën uitvoeren een super leuke website geworden. Het maakte me erg blij toen ik mensen zag lachen toe eropeens een foto uit de camera kwam."
         ]
       }
     ]
@@ -23,13 +26,16 @@
       "src": "/images/css.webp",
       "alt": "CSS to the rescue product"
     },
-    "intro": "",
-    "inleiding": "",
+    "inleiding": "Control panel met enkel CSS",
     "content": [
       {
-        "titel": "",
+        "titel": "Ingewikkelde control panel",
         "alinea": [
-          ""
+          "Voor het CSS vak had ik op het begin helemaal geen idee van wat ik wilde gaan maken, het duurde ook erg lang voordat ik eindelijk was begonnen. Toen ik eenmaal begon met de opdracht had ik ook helemaal geen idee van hoe het er uiteindelijk uit zo komen te zien.",
+          "Wat ik wel wist is dat ik een control panel wilde maken maar ik wist allee niet waarvoor. toen bedacht ik me opeens dat ik ook een control panel kan maken die zichzelf bediend.",
+          "Dit heeft er voor gezorgd dat ik in aanraking kwam met veel verschillende interactieve elementen in HTML en hoe ik deze met CSS mooi uit kan laten zien. Waar ik echt trots op ben is hoe de slider werkt, omdat het de bedoeling is dat we het zonder JS doen en ik een waarde nodig had uit mijn slider en deze waarde moet kunnen laten animeren heb ik een trucje gebruikt van Temani Afif waarbij hij een animatie gebruikt om een waarde te koppelen aan een slider.",
+          "Ik ben tijdens dit project ook in aanraking gekomen met een stukje wiskunde voor de ronde draaiknop. Stiekem is dit ook gewoon een slider maar hij lijkt op een draaiknop omdat er een kleine gradient beweegt door een formule waar sinus en cosinus in zit verwerkt.",
+          "Het was erg leuk om steeds weer kleine details te vinden die ik kon verbeteren, zo heb ik erg veel tijd gestoken in er voor zorgen dat het lijkt alsof de slider dipete heeft en tick marks heeft aan de zeikant."
         ]
       }
     ]
@@ -41,13 +47,16 @@
       "src": "/images/bt.webp",
       "alt": "Browser Tech product"
     },
-    "intro": "",
-    "inleiding": "",
+    "inleiding": "teogankelijke belastingaangifte op het web",
     "content": [
       {
-        "titel": "",
+        "titel": "belastingaangifte op het web",
         "alinea": [
-          ""
+          "Tijdens dit vak het ik gewerkt aan een belastingsaangifte formulier. Het was hierbij de bedoeling dat ik een zo toegankelijk mogelijk formulier maak dta semantisch correct gecodeerd was.",
+          "Tijdens dit project heb ik veel geleerd over het opbouwen van een HTML-formulier. Ik begon met het structureren van het formulier met elementen als fieldset, legend en label, en kreeg zo inzicht in de basis van formulieren in HTML.",
+          "Daarna heb ik met CSS Grid en custom properties gezorgd voor een logische en responsieve indeling, zodat het formulier er ook op kleinere schermen goed uitziet. Met JavaScript heb ik conditionele vragen toegevoegd die alleen zichtbaar worden op basis van eerdere antwoorden. Dit heb ik zo opgezet dat het formulier ook bruikbaar blijft zonder JavaScript, volgens het principe van progressive enhancement.",
+          "Voor de gebruikerservaring heb ik validatie toegepast, bijvoorbeeld bij het BSN-veld, met behulp van pattern, minlength, maxlength en visuele feedback via CSS. Daarnaast worden ingevulde gegevens opgeslagen in sessionStorage, zodat gebruikers geen data verliezen bij een refresh.",
+          "Waar ik het trotst op ben is het dynamisch laten zien van velden. Dit betekent dat de gebruiker alleen invul;velden ziet die ingevuld moet worden en ander niet worden weergegeven. Uiteindlijk heb ik erg veel geleerd over gebruiksvriendelijkheid en toegankelijkheid."
         ]
       }
     ]
@@ -59,13 +68,16 @@
       "src": "/images/hcd.webp",
       "alt": "Human Centered Design product"
     },
-    "intro": "",
-    "inleiding": "",
+    "inleiding": "Toegankelijk toetsenbord voor Eric",
     "content": [
       {
-        "titel": "",
+        "titel": "Het swipe toetsenbord",
         "alinea": [
-          ""
+          "Tijdens dit project heb ik onderzocht hoe ik een toetsenbord toegankelijker kan maken voor Eric. Hij zit in een rolstoel waar zijn telefoon op zit als hij hem gebruikt, tijdens treinritten kan de beweging van de trein er voor zorgen dat interactie met zijn telefoon erg lastig word omdat de toetsen erg klein zijn.",
+          "In het begin heb ik verschillende bestaande toetsenborden geanalyseerd, zoals MessageEasy en Minuum, en gekeken welke principes potentie hadden voor verbetering. Dit heeft mij erg geholpen om inspiratie te krijgen voor mijn oplossing.",
+          "Ik heb op basis daarvan een eigen versie van een 9-knops toetsenbord ontwikkeld waarbij je door te swipen tussen letters kiest. Met een dat attribuut kon ik extra tekens koppelen aan elke knop, en met JavaScript zorgde ik dat je met een swipe de juiste letter kan invoeren.",
+          "tijdens dit project heb ik erg veel verschillende iteraties gehad om met Eric te kunnen testen. Zo heb ik het toetsenbord op verschillende locaties op het scherm gezet, verschillende layouts gemaakt en een drempel toegevoegd vvoor hoe gevoelig de swipe functie is.",
+          "Ik heb tijdens dit project veel geleerd over ontwerpen voor één specifiek persoon en hoe verschillende iteraties maken van hetzeldfe product veel inpact kan hebbn op het uiteindelijke resultaat."
         ]
       }
     ]
@@ -77,13 +89,14 @@
       "src": "/images/api.webp",
       "alt": "API product"
     },
-    "intro": "",
-    "inleiding": "",
+    "inleiding": "Vertrektijden vinden van je dichtsbijzijnde station",
     "content": [
       {
-        "titel": "",
+        "titel": "vertrektijden en trajecten bekijken",
         "alinea": [
-          ""
+          "Tijdens dit project heb ik veel geleerd over het werken met externe API’s en het verwerken van data. Ik begon met het vinden van een geschikte API en koos uiteindelijk voor de NS API vanwege de goeie documentatie en de hoeveelheid mogelijkheden. Stap voor stap heb ik functies toegevoegd, zoals het ophalen van stations op basis van locatie of adres, en het tonen van vertrektijden en details van treinen.",
+          "In de loop van het project ben ik steeds dieper in de API’s NS gedoken. Ik moest problemen oplossen zoals het tonen van de juiste treinreis of het omgaan met input van de gebruiker. Ook ben ik bezig geweest met het verbeteren van de gebruikservaring, zoals door het toevoegen van suggesties bij het intypen van een adres door middel van een API",
+          "De hulp van ChatGPT heb ik gebruikt als ondersteuning maar ik heb zelf veel getest, aangepast en verbeterd. Ik ben tevreden met het eindresultaat en trots op hoe ik technische uitdaging heb overwonnen."
         ]
       }
     ]

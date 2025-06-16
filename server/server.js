@@ -49,14 +49,6 @@ app.get('/reflectie-leerdoelen', async (req, res) => {
   }));
 });
 
-app.get('/vakken', async (req, res) => {
-  const vakken = readJson('vakken.json');
-  return res.send(renderTemplate('server/views/vakken.liquid', {
-    title: 'Vakken',
-    vakken: vakken
-  }));
-});
-
 app.get('/meesterproef', async (req, res) => {
   const meesterproef = readJson('meesterproef.json');
   const markdownPath = path.resolve('server', 'data', 'Productbiografie.md');
@@ -66,6 +58,29 @@ app.get('/meesterproef', async (req, res) => {
     title: 'Meesterproef',
     meesterproef: meesterproef,
     content: meesterproefHTML
+  }));
+});
+
+app.get('/vakken', async (req, res) => {
+  const vakken = readJson('vakken.json');
+  return res.send(renderTemplate('server/views/vakken.liquid', {
+    title: 'Vakken',
+    vakken: vakken
+  }));
+});
+
+app.get('/vakken/:id', async (req, res) => {
+  const vakken = readJson('vakken.json');
+  const id = req.params.id;
+  const vak = vakken.find((vak) => vak.id === id);
+
+  if (!vak) {
+    return res.status(404).send('vak not found');
+  }
+
+  return res.send(renderTemplate('server/views/vakken-detail.liquid', {
+    title: `Vak Detail: ${vak.title}`,
+    vak: vak
   }));
 });
 

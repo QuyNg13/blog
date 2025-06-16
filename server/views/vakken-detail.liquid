@@ -1,0 +1,28 @@
+{% layout "server/layouts/base.liquid" %}
+
+{% block content %}
+  <div class="blog-wrapper">
+    <div class="blog-container">
+      {% if vak.image %}
+        <img class="blog-image" src="{{ vak.image.src }}" alt="{{ vak.image.alt }}">
+        {% else %}
+        <img class="blog-image" src="/images/blank.png">
+      {% endif %}
+
+      {% if vak.inleiding %}
+        <div class="blog-intro">
+          <h1>{{ vak.title }}</h1>
+          <p>{{ vak.inleiding }}</p>
+        </div>
+      {% endif %}
+    </div>
+    <div class="blog-content">
+      {% for section in vak.content %}
+        <h2>{{ section.titel }}</h2>
+        {% for alinea in section.alinea %}
+          <p>{{ alinea }}</p>
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}
