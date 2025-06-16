@@ -1,9 +1,9 @@
 <div class="card">
   <a href="/weekly-nerd/{{ blog.id }}/">
     {% if blog.image %}
-      <img src="{{ blog.image.src }}" alt="{{ blog.image.alt}}" class="card-image">
+    <img src="{{ blog.image.src }}" alt="{{ blog.image.alt}}" class="card-image">
     {% else %}
-      <img src="/images/blank.png" alt="Geen afbeelding beschikbaar" class="card-image">
+    <img src="/images/blank.png" alt="Geen afbeelding beschikbaar" class="card-image">
     {% endif %}
     <h2>{{ blog.title }}</h2>
     <p>{{ blog.intro }}</p>

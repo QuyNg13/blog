@@ -1,10 +1,10 @@
 <div class="card">
-  <a href="/vakken/{{ vak.id }}/">
-    {% if vak.image %}
-      <img src="{{ vak.image.src }}" alt="{{ vak.image.alt}}" class="card-image">
-    {% else %}
-      <img src="/images/blank.png" alt="Geen afbeelding beschikbaar" class="card-image">
-    {% endif %}
-    <h2>{{ vak.title }}</h2>
-  </a>
+    <a href="/vakken/{{ vak.id }}/">
+        {% if vak.image %}
+        <img src="{{ vak.image.src }}" alt="{{ vak.image.alt}}" class="card-image">
+        {% else %}
+        <img src="/images/blank.png" alt="Geen afbeelding beschikbaar" class="card-image">
+        {% endif %}
+        <h2>{{ vak.title }}</h2>
+    </a>
 </div>

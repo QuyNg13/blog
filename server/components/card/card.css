@@ -1,35 +1,35 @@
 .card {
-  background-color: #d9d9d9;
-  border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  padding: 1.5rem;
-}
+  background-color: rgb(252, 252, 252);
+  aspect-ratio: 3.5 / 4.2;
+  width: clamp(12rem, 90vw, 18rem);
+  position: relative;
+  font-family: sans-serif;
+  display: inline-block;
 
-.card a {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    justify-items:center;
 
-.card h2 {
-  font-size: 1.5rem;
-  color: #000000;
-}
+    h2 {
+      font-size: 1.5rem;
+      margin: 0.5rem 0 0.5rem 0;
+      color: #000000;
+    }
 
-.card p {
-  font-size: 1rem;
-  color: #343434;
-  line-height: 1.6;
-}
+    p {
+      font-size: 1rem;
+      color: #343434;
+      text-align: center;
+      padding-bottom: 0.5rem;
+    }
 
-.card img {
-  width: 100%;
-  aspect-ratio: 1/1;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    img {
+      display: block;
+      width: 88.57%;
+      margin: 5.71% auto 0 auto;
+      aspect-ratio: 1 / 1;
+    }
+  }
 }

@@ -1,15 +1,15 @@
 {% layout "server/layouts/base.liquid" %}
 
 {% block content %}
-  <div class="inleiding">
-  <h1>{{ title }}</h1>
-  <p>Hier heb ik de highlights begeschreven vak elk vak dat ik heb gekregen tijdens de minor.</p>
+<div class="inleiding">
+    <h1>{{ title }}</h1>
+    <p>Hier heb ik de highlights begeschreven vak elk vak dat ik heb gekregen tijdens de minor.</p>
 </div>
-  <ul class="card-grid">
+<ul class="card-grid">
     {% for vak in vakken %}
-      <li>
+    <li>
         {% render 'server/components/card/vakken-card.liquid', vak: vak %}
-      </li>
+    </li>
     {% endfor %}
-  </ul>
+</ul>
 {% endblock %}

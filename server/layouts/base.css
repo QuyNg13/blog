@@ -27,6 +27,11 @@ header {
   }
 }
 
+main {
+  background-color: #1a1a1a;
+  height: fit-content;
+}
+
 @media (max-width: 760px) {
   nav ul {
     flex-direction: column;
@@ -39,6 +44,7 @@ header {
 
 .inleiding{
   max-width: 1440px;
+  color: rgb(255, 255, 255);
 
   h1 {
     margin: 1rem 0;

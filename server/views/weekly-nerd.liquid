@@ -1,15 +1,16 @@
 {% layout "server/layouts/base.liquid" %}
 
 {% block content %}
-  <div class="inleiding">
+<div class="inleiding">
   <h1>{{ title }}</h1>
-  <p>Hier heb ik een stuk geschreven over elke weekly nerd die langs is gekomen op de minor. Ik beshrijf mijn inzichten en wat ik ga meenemen.</p>
+  <p>Hier heb ik een stuk geschreven over elke weekly nerd die langs is gekomen op de minor. Ik beshrijf mijn inzichten
+    en wat ik ga meenemen.</p>
 </div>
-  <ul class="card-grid">
-    {% for blog in blogs %}
-      <li>
-        {% render 'server/components/card/card.liquid', blog: blog %}
-      </li>
-    {% endfor %}
-  </ul>
+<ul class="card-grid">
+  {% for blog in blogs %}
+  <li>
+    {% render 'server/components/card/card.liquid', blog: blog %}
+  </li>
+  {% endfor %}
+</ul>
 {% endblock %}
